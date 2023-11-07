@@ -58,6 +58,7 @@ public class NotaFiscalCompra implements Serializable{
 	@JoinColumn(name = "conta_pagar_id", nullable = false, foreignKey = @ForeignKey(value = ConstraintMode.CONSTRAINT, name = "conta_pagar_fk"))
 	private ContaPagar contaPagar;
 
+	
 
 	public Long getId() {
 		return id;
